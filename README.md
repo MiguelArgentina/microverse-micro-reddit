@@ -38,7 +38,7 @@ Follow the instructions on [Building with Active Record](https://www.theodinproj
 
 ## Show your support
 
-Give a :star:️ if you like this project!
+Give a :star:️ &nbsp; if you like this project!
 
 ## License
 
