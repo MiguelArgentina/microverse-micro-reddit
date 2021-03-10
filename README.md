@@ -1,24 +1,33 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Things you may want to cover:
+## Project Name: Micro Reddit: a junior clone of Reddit
 
-* Ruby version
+## Prerequisites
+- Ruby
+- SQLite3
+- Node.js
+- Yarn
 
-* System dependencies
+## Getting Started
+Follow the instructions on [getting started with rails](https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails)
 
-* Configuration
+## Authors
 
-* Database creation
+👤 **Miguel Ricardo Gomez**
+- GitHub: [@MiguelArgentina](https://github.com/MiguelArgentina)
+- Twitter: [@Qete_arg](https://twitter.com/Qete_arg)
+- LinkedIn: [Miguel Ricardo Gomez](https://www.linkedin.com/in/miguelricardogomez/)
 
-* Database initialization
+👤 **Ubong George**
+- GitHub: [@george-swift](https://github.com/george-swift)
+- Twitter: [@\_\_pragmaticdev](https://twitter.com/__pragmaticdev)
 
-* How to run the test suite
+## Show your support
 
-* Services (job queues, cache servers, search engines, etc.)
+Give a :star:️ if you like this project!
 
-* Deployment instructions
+## License
 
-* ...
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
