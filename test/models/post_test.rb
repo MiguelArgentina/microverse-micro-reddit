@@ -29,4 +29,19 @@ class PostTest < ActiveSupport::TestCase
     @post.title = 'a' * 51
     assert_not @post.valid?
   end
+
+  test 'body should be present' do
+    @post.body = ' '
+    assert_not @post.valid?
+  end
+
+  test 'body should be at least 2 characters' do
+    @post.body = 'a'
+    assert_not @post.valid?
+  end
+
+  test 'body should be at most 200 characters' do
+    @post.body = 'a' * 201
+    assert_not @post.valid?
+  end
 end
