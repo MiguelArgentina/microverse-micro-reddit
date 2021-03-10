@@ -15,5 +15,18 @@ class PostTest < ActiveSupport::TestCase
     assert_not @post.valid?
   end
 
-  
+  test 'title should be present' do
+    @post.title = ' '
+    assert_not @post.valid?
+  end
+
+  test 'title should be at least 2 characters' do
+    @post.title = 'a'
+    assert_not @post.valid?
+  end
+
+  test 'title should be at most 50 characters' do
+    @post.title = 'a' * 51
+    assert_not @post.valid?
+  end
 end
