@@ -37,7 +37,7 @@ Rails practice - Clone of Reddit blog
 ## Getting Started
 Follow the instructions on [Building with Active Record](https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails)
 
-![screenshot](./app/assets/images/screenshot.png)
+![screenshot](./screenshot.png)
 
 ## Authors
 
