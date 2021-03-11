@@ -25,9 +25,19 @@ Rails practice - Clone of Reddit blog
 > Each User can post an unlimited amount of posts. Every Post has a Title (at least 2 chars long and 50 chars maximum) and a Body (at least 2 chars long and 200 chars maximum)
 > Each Post can have an unlimited amount of Comments (Each comment must be at least 2 chars long)
 
+## Instructions
+- Open your terminal - Windows: `Win + R`, then type `cmd` | Mac: `Command + space`, then type `Terminal`
+- Navigate to a directory of your choosing using the `cd` command
+- Run this command in your OS terminal: `git clone https://github.com/MiguelArgentina/microverse-micro-reddit.git` to get a copy of the project.
+- Navigate to the project's directory using the `cd` command.
+- Execute `rails console` to load the development environment.
+- Run `User.all` to see all the users in the database.
+
 
 ## Getting Started
 Follow the instructions on [Building with Active Record](https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails)
+
+![screenshot](./app/assets/images/screenshot.png)
 
 ## Authors
 
@@ -46,4 +56,4 @@ Give a :star:️ &nbsp; if you like this project!
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+This is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
