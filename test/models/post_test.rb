@@ -10,11 +10,6 @@ class PostTest < ActiveSupport::TestCase
     assert @post.valid?
   end
 
-  test 'user id should be present' do
-    @post.user_id = nil
-    assert_not @post.valid?
-  end
-
   test 'title should be present' do
     @post.title = ' '
     assert_not @post.valid?
